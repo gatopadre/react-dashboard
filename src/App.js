@@ -6,8 +6,7 @@ import LogoutModal from './components/LogoutModal';
 
 function App() {
   return (
-    // es falsa despues hay que quitar la div "seba"
-    <div className="seba">
+    <div className="App">
       <Wrapper />
       <ScrollToTop/>
       <LogoutModal/>
