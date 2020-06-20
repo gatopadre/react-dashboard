@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import Wrapper from './components/Wrapper';
+import ScrollToTop from './components/ScrollToTop';
+import LogoutModal from './components/LogoutModal';
 
 function App() {
   return (
-    // <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-      <MainContent/>
-      <Footer/>
+    // es falsa despues hay que quitar la div "seba"
+    <div className="seba">
+      <Wrapper />
+      <ScrollToTop/>
+      <LogoutModal/>
     </div>
-    // <!-- End of Content Wrapper -->    
   );
 }
 
